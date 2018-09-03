@@ -1,0 +1,73 @@
+body {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/* Banner */
+
+div#banner {
+    border: 1px solid black;
+}
+
+div#banner h1 {
+    text-align: center;
+    padding: 1em;
+    font-size: 2em;
+    letter-spacing: .5em;
+    font-weight: 900;
+}
+
+/* Navigation Bar */
+
+div#navbar {
+    border: 1px solid black;
+}
+
+div#navbar h2 {
+    text-align: center;
+}
+
+/* Main */
+
+div#main {
+    float: left;
+    border: 1px solid black;
+    width: 65%;
+}
+
+div#main h2 {
+    text-align: center;
+    padding: 10em 10em 10em 10em;
+}
+
+/* Images */
+
+div#image {
+    float: right;
+    border: 1px solid black;
+    width: 34%
+}
+
+div#image h2 {
+    text-align: center;
+    padding: 10em 0 10em 0;
+}
+
+/* Clear inline */
+
+div#clear {
+    clear: both;
+}
+
+/* Footer */
+
+div#footer {
+    border: 1px solid black;
+    width: 100%;
+}
+
+div#footer h2 {
+    text-align: center;
+    padding: 1em;
+}

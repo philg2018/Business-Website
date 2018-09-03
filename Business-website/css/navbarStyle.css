@@ -1,0 +1,350 @@
+/* Body */
+
+body {
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1em;
+    color: black;
+    background-image: url("http://i1268.photobucket.com/albums/jj574/webbingit4you/business-website/logo_transparent_zpsiu9yeony.png");
+}
+
+/* Header */
+
+div#header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: dodgerblue;
+}
+
+div#invisible-header {
+    width: 100%;
+    visibility: hidden;
+}
+
+div#header h1, div#invisible-header h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 2em;
+    margin-left: 2%;
+    padding: 0;
+}
+
+/* Navigation bar */
+
+div.navbar {
+    background-color: deepskyblue;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: -.2em 0 0 -.5em;
+}
+
+.msgbtn {
+    width: 160px;
+    height: 40px;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: white;
+    border: 1px solid deepskyblue;
+    text-align: center;
+    background-color: deepskyblue;
+    margin: .2em auto .2em auto;
+}
+
+.msgbtn:hover {
+    background-color: lightblue;
+    color: grey;
+}
+
+div.navbar h6 {
+    text-align: center;
+}
+
+/* Main */
+
+div.main {
+}
+
+div.main h2 {
+    text-align: center;
+    color: dodgerblue;
+    font-size: 2em;
+    font-weight: 900;
+    font-family: "Comic Sans MS", cursive;
+    border: 2px inset dodgerblue;
+    width: 100%;
+    margin: -.8em 0 0 -.3em;
+    padding: .3em 0 .3em 0;
+}
+
+/* Vertical NavBar 1 */
+
+div.content {
+    width:20%;
+    float: left;
+}
+
+div.content fieldset {
+    border: 1px solid blue;
+    margin: 0;
+    display: inline-block;
+    color: blue;
+}
+
+div.content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+div.content ul li a {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.msgbtn2 {
+    width: 140px;
+    height: 30px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.msgbtn2:hover {
+    color: grey;
+}
+
+/* Vertical NavBar 2 */
+
+div#menu {
+    display: inline-block;
+    float: left;
+    margin-left: 2em;
+}
+
+div#menu ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+div#menu ul li {
+    background-color: dodgerblue;
+    margin: 0 0 .25em 0;
+}
+
+div#menu ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .35em;
+}
+
+div#menu ul li a:hover {
+    color: grey;
+}
+
+/* Vertical NavBar 3 */
+
+div#menu2 {
+    display: inline-block;
+    float: left;
+    margin-left: 2em;
+}
+
+div#menu2 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+div#menu2 ul li {
+    background-color: dodgerblue;
+    margin: 0;
+}
+
+div#menu2 ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .35em;
+}
+
+div#menu2 ul li a:hover {
+    color: grey;
+}
+
+/* Vertical NavBar 4 */
+
+div#menu3 {
+    display: inline-block;
+    float: left;
+    margin-left: 2em;
+}
+
+div#menu3 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+div#menu3 ul li {
+    background-color: dodgerblue;
+    margin: 0;
+    border: 7px outset dodgerblue;
+}
+
+div#menu3 ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .35em;
+}
+
+div#menu3 ul li:hover {
+    background-color: lightblue;
+}
+
+div#menu3 ul li a:hover {
+    color: grey;
+}
+
+div.no-wrap {
+    clear: both;
+}
+
+/* Horizontal navbar 1 */
+
+div#navbarH {
+    display: inline-block;
+    width: 100%
+}
+
+div#navbarH ul {
+    list-style-type: none;
+}
+
+div#navbarH ul li {
+    background-color: hotpink;
+    text-align: center;
+    display: inline;
+    width: 13%;
+    float: left;
+    margin: 0;
+}
+
+div#navbarH ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .25em;
+}
+
+div#navbarH ul li a:hover {
+    color: grey;
+}
+
+/* Horizontal navbar 2 */
+
+div#navbarH2 {
+    display: inline-block;
+    width: 100%
+}
+
+div#navbarH2 ul {
+    list-style-type: none;
+}
+
+div#navbarH2 ul li {
+    background-color: hotpink;
+    text-align: center;
+    display: inline;
+    width: 13%;
+    float: left;
+    margin: .25em;
+}
+
+div#navbarH2 ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .25em;
+}
+
+div#navbarH2 ul li a:hover {
+    color: grey;
+}
+
+/* Horizontal navbar 3 */
+
+div#navbarH3 {
+    display: inline-block;
+    width: 100%
+}
+
+div#navbarH3 ul {
+    list-style-type: none;
+}
+
+div#navbarH3 ul li {
+    background-color: hotpink;
+    border: 5px outset pink;
+    text-align: center;
+    display: inline;
+    width: 13%;
+    float: left;
+    margin: .25em;
+}
+
+div#navbarH3 ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .25em;
+}
+
+div#navbarH3 ul li a:hover {
+    color: grey;
+}
+
+/* footer */
+
+div.footer {
+    width: 100%;
+    position fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 2em;
+    word-spacing: 3em;
+    background-color: dodgerblue;
+    margin: 0 0 0 -.4em;
+}
+
+div.footer a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/* special functions */
+

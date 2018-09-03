@@ -1,0 +1,110 @@
+/* Body */
+
+body {
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1em;
+    color: black;
+    background-image: url("http://i1268.photobucket.com/albums/jj574/webbingit4you/business-website/logo_transparent_zpsiu9yeony.png");
+}
+
+/* Header */
+
+div#header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: dodgerblue;
+}
+
+div#invisible-header {
+    width: 100%;
+    visibility: hidden;
+}
+
+div#header h1, div#invisible-header h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 2em;
+    margin-left: 2%;
+    padding: 0;
+}
+
+/* Navigation bar */
+
+div.navbar {
+    background-color: deepskyblue;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: -.2em 0 0 -.5em;
+}
+
+.msgbtn {
+    width: 160px;
+    height: 40px;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: white;
+    border: 1px solid deepskyblue;
+    text-align: center;
+    background-color: deepskyblue;
+    margin: .2em auto .2em auto;
+}
+
+.msgbtn:hover {
+    background-color: lightblue;
+    color: grey;
+}
+
+div.navbar h6 {
+    text-align: center;
+}
+
+/* Main */
+
+div.main {
+}
+
+div.main h2 {
+    text-align: center;
+    color: dodgerblue;
+    font-size: 2.5em;
+    font-weight: 900;
+    font-family: "Comic Sans MS", cursive;
+    width: 100%;
+    margin: -.6em 0 0 -.3em;
+    padding: .3em 0 0 0;
+}
+
+div#frame {
+}
+
+div#frame iframe {
+    margin: 0 5% 0 5%;
+    border: 8px inset lightblue;
+}
+
+/* footer */
+
+div.footer {
+    width: 100%;
+    position fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 2em;
+    word-spacing: 3em;
+    background-color: dodgerblue;
+    margin: 0 0 0 -.4em;
+}
+
+div.footer a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+/* special functions */
+

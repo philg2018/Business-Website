@@ -1,0 +1,135 @@
+body {
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Header Logo */
+
+div#logo {
+    border: 2px solid black;
+    width: 35%;
+    float: left;
+}
+
+/* Header Banner */
+
+div#banner {
+    border: 2px solid black;
+    width: 64.4%;
+    float: right;
+}
+
+/* Navigation Bar */
+
+div#nav {
+    display: inline-block;
+    width: 99.8%;
+    padding-bottom: 1em;
+    border: 2px solid black;
+    margin-bottom: 1.5em;
+}
+
+div#nav ul {
+    list-style-type: none;
+    margin-left: 5em;
+}
+
+div#nav ul li {
+    background-color: white;
+    text-align: center;
+    display: inline;
+    width: 15%;
+    float: left;
+}
+
+div#nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+div#nav ul li:hover {
+    background-color: lightgray;
+}
+
+div#nav ul li a:hover {
+    color: grey;
+}
+
+/* Left Blocks */
+
+div#lb {
+    border: 2px solid black;
+    width: 25%;
+    float: left;
+    padding: 0 0 30.85em 0;
+}
+
+/* Center-Center Blocks */
+
+div#ccb {
+    border: 2px solid black;
+    width: 50%;
+    float: left;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+div#clb {
+    border: 2px solid black;
+    width: 25%;
+    float: left;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+/* Center-Right Blocks */
+
+div#crb {
+    border: 2px solid black;
+    width: 24.7%;
+    float: left;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+/* Module Contents */
+
+div#mc {
+    border: 2px solid black;
+    width: 50%;
+    float: left;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+/* Right Blocks */
+
+div#rb {
+    border: 2px solid black;
+    width: 24%;
+    float: right;
+    padding-bottom: 31em;
+    margin-top: -24.9em;
+}
+
+/* Clear inline */
+
+div#clear {
+    clear: both;
+}
+
+/* Footer Bar */
+
+div#footer {
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 1.5em;
+    padding: 1em 0 1em 0;
+}

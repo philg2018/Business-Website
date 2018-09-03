@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+}
+
+/* Banner */
+
+div#banner {
+     border: 2px solid black;
+}
+
+div#banner h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+/* Left Side */
+
+div#ls {
+    border: 2px solid black;
+    width: 15%;
+    float: left;
+    padding-bottom: 40em;
+}
+
+div#ls h2 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+/* Middle */
+
+div#main {
+    border: 2px solid black;
+    width:69%;
+    float: left;
+    padding-bottom: 40em;
+}
+
+/* Right Side */
+
+div#rs {
+    border: 2px solid black;
+    width: 15%;
+    float: right;
+    padding-bottom: 40em;
+}
+
+/* Clear float */
+
+div#clear {
+    clear: both;
+}
+
+/* Footer */
+
+div#footer {
+    border: 2px solid black;
+}
+
+div#footer h2 {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}

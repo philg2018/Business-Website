@@ -1,0 +1,136 @@
+body {
+    background-color: white;
+    border: 2px solid black;
+}
+
+/* menu */
+
+div#menu {
+    display: inline-block;
+    float: left;
+    margin: 2em; 0 2em -1em;
+    border: 2px solid black;
+    background-color: white;
+}
+
+div#menu h2 {
+    text-align: center;
+}
+
+div#menu ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+div#menu ul li {
+    margin: 0;
+    border: 7px outset lightgrey;
+    background-color: white;
+}
+
+div#menu ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: .35em;
+}
+
+div#menu ul li:hover {
+    background-color: lightgrey;
+}
+
+div#menu ul li a:hover {
+    color: grey;
+}
+
+/* top */
+
+div#top {
+    border: 2px solid black;
+    width: 55%;
+    float: left;
+    margin: .5em 0 0 0;
+}
+
+div#top h1 {
+    font-weight: 900;
+    text-align: center;
+}
+
+/* bottom */
+
+div#bottom {
+    border: 2px solid black;
+    width: 55%;
+    float: left;
+    margin: 1em 0 0 0;
+    padding-bottom: 28.5em;
+}
+
+div#bottom p {
+    text-indent: 1em;
+    font-size: .75em;
+}
+
+/* rt */
+
+div#rt {
+    border: 2px solid black;
+    width: 18%;
+    float: right;
+    margin: -5em .5em 0 0;
+    padding-bottom: 15em;
+}
+
+div#rt p{
+    text-indent: .5em;
+    font-size: .75em;
+}
+
+/* rb */
+
+div#rb {
+    border: 2px solid black;
+    width: 18%;
+    float: right;
+    margin: 1em .5em 0 0;
+    padding-bottom: 15.7em;
+}
+
+div#rb p {
+    text-indent: .5em;
+    font-size: .75em;
+}
+
+/* clear inline */
+
+div#clear {
+    clear: both;
+}
+/* under */
+
+div#under {
+    border: 2px solid black;
+    margin: -1em .5em 1em .5em;
+    padding-bottom: 2em;
+}
+
+div#under p {
+    font-size: .75em;
+}
+
+/* footer */
+
+div#footer {
+    border: 2px solid black;
+    margin: 0 .5em .5em .5em;
+    padding-bottom: 2em;
+}
+
+div#footer h2 {
+    text-align: center;
+    font-weight: 900;
+}

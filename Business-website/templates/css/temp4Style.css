@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+}
+
+/* Header */
+
+div#header {
+    color: black;
+    border: 2px solid red;
+}
+
+div#header h1 {
+    text-align: center;
+}
+
+/* Menu */
+
+div#menu {
+    display: inline-block;
+    float: left;
+    margin: 2em; 0 2em -1em;
+    border: 2px solid hotpink;
+    background-color: pink;
+}
+
+div#menu h2 {
+    text-align: center;
+}
+
+div#menu ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+div#menu ul li {
+    margin: 0;
+    border: 7px outset pink;
+    background-color: hotpink;
+}
+
+div#menu ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .35em;
+}
+
+div#menu ul li:hover {
+    background-color: lightblue;
+}
+
+div#menu ul li a:hover {
+    color: grey;
+}
+
+/* Content */
+
+div#content {
+    border: 2px solid blue;
+    width: 75%;
+    float: right;
+    margin: 2em 0 2em 1em;
+    padding-bottom: 35em;
+}
+
+div#content h2 {
+    text-align: center;
+}
+
+/* Clear inline */
+
+div#clear {
+    clear: both;
+}
+
+/* Footer */
+
+div#footer {
+    border: 2px solid red;
+    width: 100%;
+}
+
+div#footer h2 {
+    text-align: center;
+}

@@ -1,0 +1,145 @@
+body {
+    background-color: white;
+}
+
+/* Banner */
+
+div#banner {
+    border: 2px solid pink;
+    padding: .2em .2em .2em .2em;
+    margin-bottom: .3em;
+}
+
+div#banner h1 {
+    text-align: left;
+    text-indent: 1em;
+    color: pink;
+    padding: .5em;
+    font-size: 1.5em;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+/* colmask */
+
+div#colmask {
+    border: 2px solid limegreen;
+    padding: .3em .3em .3em .3em;
+}
+
+div#colmask h2 {
+    font-size: 1.5em;
+    color: limegreen;
+    text-indent: 1em;
+    font-weight: 200;
+}
+
+/* ColMid */
+
+div#colmid {
+    border: 2px solid blue;
+    padding: .3em .3em .3em .3em;
+}
+
+div#colmid h2 {
+    font-size: 1.5em;
+    color: blue;
+    text-indent: 1em;
+    font-weight: 200;
+}
+
+/* ColLeft */
+
+div#colleft {
+    border: 2px solid orange;  
+    padding: .3em .3em 35em .3em;
+}
+
+div#colleft h2 {
+    font-size: 1.5em;
+    color: orange;
+    text-indent: 1em;
+    font-weight: 200em;
+}
+
+/* col1wrap */
+
+div#col1wrap {
+    border: 2px solid violet;
+    width:31%;
+    float: left;
+    padding: .3em .3em .3em .3em;
+}
+
+div#col1wrap h2 {
+    font-size: 1.5em;
+    color: violet;
+    text-indent: 1em;
+    font-weight: 200;
+}
+
+/* col1left */
+
+fieldset#col1left {
+    border: 2px solid lightblue;
+    padding: .3em .3em 25em .3em;
+
+}
+
+fieldset#col1left h2 {
+    font-size: 1.5em;
+    color: lightblue;
+    text-indent: 1em;
+    font-weight: 200;
+}
+
+/* col2center */
+
+div#col2center {
+    border: 2px solid red;
+    width: 32.7%;
+    float: left;
+    padding: .3em .3em 30em .3em;
+    margin-left: .5em;
+}
+
+div#col2center h2 {
+    font-size: 1.5em;
+    color: red;
+    text-indent: 1em;
+    font-weight: 200;
+}
+
+/* col3right */
+
+div#col3right {
+    border: 2px solid lightblue;
+    padding: .3em .3em 30em .3em;
+    width: 32.4%;
+    float: right;
+}
+
+div#col3right h2 {
+    font-size: 1.5em;
+    color: lightblue;
+    text-indent: 1em;
+    font-weight: 200;
+}
+
+/* Clear inline */
+
+div#clear {
+    clear: both;
+}
+
+/* Footer */
+
+div#footer {
+    border: 1px solid black;
+    width: 100%;
+    margin-top: .3em;
+}
+
+div#footer h2 {
+    padding: .5em;
+}

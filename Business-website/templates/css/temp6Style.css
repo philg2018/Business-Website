@@ -1,0 +1,110 @@
+body {
+    background-color: white;
+}
+
+/* header */
+
+div#header {
+    width: 100%;
+    border: 2px solid black;
+    padding: .5em 0 .5em 0;
+}
+
+div#header h1 {
+    text-align: center;
+}
+
+/* Navigation Bar */
+
+div#nav {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 1em;
+    margin-left: 5em;
+}
+
+div#nav ul {
+    list-style-type: none;
+}
+
+div#nav ul li {
+    border: 3px outset lightgrey;
+    background-color: white;
+    text-align: center;
+    display: inline;
+    width: 13%;
+    float: left;
+    margin: 0;
+    padding: .5em 0 .5em 0;
+}
+
+div#nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: .25em;
+}
+
+div#nav ul li:hover {
+    background-color: lightgray;
+}
+
+div#nav ul li a:hover {
+    color: grey;
+}
+
+/* Article */
+
+div#article {
+    border: 2px solid black;
+    width: 65%;
+    float: left;
+    padding-bottom: 1em;
+}
+
+div#article h2 {
+    text-indent: 1em;
+}
+
+/* Section */
+
+div#section {
+    border: 2px solid black;
+    margin: 0 1em 1em 1em;
+    padding-bottom: 20em;
+}
+
+/* Sidebar */
+
+div#sidebar {
+    border: 2px solid black;
+    width: 33%;
+    float: right;
+    padding-bottom: 26.5em;
+}
+
+div#sidebar h2 {
+    text-align: center;
+}
+
+/* Clear inline */
+
+div#clear {
+    clear: both;
+}
+
+/* Footer */
+
+div#footer {
+    border: 2px solid black;
+    width: 100%;
+    padding: 1em 0 1em 0;
+    margin: 1em 0 0 0;
+}
+
+div#footer h2 {
+    text-align: center;
+}
