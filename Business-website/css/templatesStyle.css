@@ -59,6 +59,39 @@ div.navbar {
     color: grey;
 }
 
+.msgbtn2 {
+    width: 25%;
+    height: 40px;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: white;
+    border: 1px solid deepskyblue;
+    text-align: center;
+    background-color: deepskyblue;
+    margin: .2em auto .2em auto;
+}
+
+.msgbtn2:hover {
+    background-color: lightblue;
+    color: grey;
+}
+
+.msgbtn3 {
+    width: 18%;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    border: 1px solid deepskyblue;
+    text-align: center;
+    background-color: deepskyblue;
+    margin-bottom: .25em;
+}
+
+.msgbtn3:hover {
+    background-color: lightblue;
+    color: grey;
+}
+
 div.navbar h6 {
     text-align: center;
 }
@@ -87,6 +120,14 @@ div#frame iframe {
     border: 8px inset lightblue;
 }
 
+fieldset {
+    border: 5px inset skyblue;
+    margin: 1em 1em 1em 1em;
+    display: inline-block;
+    padding: 1em 0 0 1em;
+    width: 87%;
+}
+
 /* footer */
 
 div.footer {
@@ -108,3 +149,20 @@ div.footer a {
 }
 /* special functions */
 
+fieldset.indent {
+    background-color: white;
+    margin: 0 0 2em 5em;
+    padding: 1em 1em 1em 1em;
+}
+
+p.blue2 {
+    color: dodgerblue;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+}
+
+p#exP1 {
+    font-size: 1.4em;
+    text-align: justify;
+}
